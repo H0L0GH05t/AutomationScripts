@@ -1,6 +1,8 @@
 from decimal import *
 
-FILENAME = "02-26-25.txt"
+# TODO: make filename dynamic
+
+FILENAME = "05-12-25.txt"
 
 def calculate_total():
     total = Decimal(0.00)
@@ -12,4 +14,4 @@ def calculate_total():
     return total
 
 total_amt = calculate_total()
-print(f"Mog owes {total_amt/2} of the total {total_amt}")
+print(f"You owe {total_amt/2} of the total {total_amt}")
